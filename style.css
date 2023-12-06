@@ -1,0 +1,57 @@
+/* VARIABILE FONT */
+:root{
+    --font_principale: Nova Square, Rajdhani;
+}
+
+/* LOGO */
+.imgLogo{
+    width: 150px;
+    height: 100px;
+}
+
+/* MODIFICA TESTO LINK */
+.linkText{
+    text-decoration: none;
+    color: black;
+    font: var(--font_principale);
+}
+
+
+/* Prima sezione*/
+
+.imgBackground{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0)),  url(media/switzerland-862870_1920.jpg);
+    background-position: center;
+    height: 1000px;
+    position: relative;
+    
+    
+}
+
+.titlePrincipale{
+    font: var(--font_principale);
+    color: darkred;
+    letter-spacing: 30px;
+    position: absolute;
+    top: 50%;
+    left:43%;
+}
+
+/* SECONDA SEZIONE  */
+
+.paragrafo{
+    text-align: center;
+    font: var(--font_principale);
+    font-size: 20px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+
+
+
+    
+
+
+
+
